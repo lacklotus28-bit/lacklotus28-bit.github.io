@@ -1,0 +1,347 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Jhon Maelbert Encarnacion — Full-Stack & Mobile Developer</title>
+<meta name="description" content="Portfolio of Jhon Maelbert Encarnacion, Computer Science graduate building full-stack web, mobile, and game projects.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Fira+Code:wght@400;500&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="assets/css/style.css">
+</head>
+<body>
+
+  <nav class="nav">
+    <div class="container nav-inner">
+      <a href="#hero" class="nav-logo">jme<span class="accent">.</span>dev</a>
+      <div class="nav-links">
+        <a href="#hero">Home</a>
+        <a href="#experience">Experience</a>
+        <a href="#projects">Projects</a>
+        <a href="#skills">Skills</a>
+        <a href="#contact">Contact</a>
+      </div>
+      <button class="nav-toggle" aria-label="Toggle menu">☰</button>
+    </div>
+  </nav>
+
+  <section class="hero" id="hero">
+    <div class="container hero-inner">
+      <div>
+        <div class="hero-eyebrow">Computer Science Graduate · Batangas, PH</div>
+        <h1 class="hero-heading">Building practical <span class="accent-text">full-stack</span> and <span class="accent-text">mobile</span> solutions</h1>
+        <p class="hero-sub">I design and build real systems end to end, from Android apps with offline-first architecture to booking platforms with live payment flows. Currently looking for full-time developer roles.</p>
+        <div class="hero-cta">
+          <a href="#projects" class="btn btn-primary">View Projects</a>
+          <a href="https://mail.google.com/mail/?view=cm&to=johnencarnacion487@gmail.com" target="_blank" class="btn btn-outline">Get in Touch</a>
+        </div>
+      </div>
+      <div class="hero-code">
+        <div class="code-block">
+          <div class="code-bar">
+            <span class="dot red"></span>
+            <span class="dot yellow"></span>
+            <span class="dot green"></span>
+            <span class="code-filename">developer.json</span>
+          </div>
+          <div class="code-body"><span class="c-op">{</span>
+  <span class="c-key">"name"</span><span class="c-op">:</span> <span class="c-str">"Jhon Maelbert Encarnacion"</span><span class="c-op">,</span>
+  <span class="c-key">"role"</span><span class="c-op">:</span> <span class="c-str">"Full-Stack / Mobile Dev"</span><span class="c-op">,</span>
+  <span class="c-key">"stack"</span><span class="c-op">:</span> <span class="c-arr">["Java", "PHP", "React", "Godot"]</span><span class="c-op">,</span>
+  <span class="c-key">"focus"</span><span class="c-op">:</span> <span class="c-str">"Android, Web, Game Dev"</span><span class="c-op">,</span>
+  <span class="c-key">"location"</span><span class="c-op">:</span> <span class="c-str">"Batangas, PH"</span><span class="c-op">,</span>
+  <span class="c-key">"openToWork"</span><span class="c-op">:</span> <span class="c-bool">true</span>
+<span class="c-op">}</span></div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="exp-section" id="experience">
+    <div class="container">
+      <div class="section-header">
+        <div class="section-eyebrow">Experience</div>
+        <h2 class="section-title">On-the-Job Training</h2>
+      </div>
+      <div class="exp-card">
+        <div class="exp-left">
+          <div class="exp-icon">
+            <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="2" y="7" width="20" height="14" rx="2"></rect><path d="M16 21V5a2 2 0 0 0-2-2h-4a2 2 0 0 0-2 2v16"></path></svg>
+          </div>
+          <div>
+            <div class="exp-company">Virtual Bear</div>
+            <div class="exp-role">OJT Intern</div>
+          </div>
+        </div>
+        <ul class="exp-bullets">
+          <li>Assisted in the front-end layout and styling of a sample e-commerce website.</li>
+          <li>Managed and inputted inventory items into the company website using a WordPress-based content management tool, ensuring accurate product listings and organized catalog data.</li>
+        </ul>
+      </div>
+    </div>
+  </section>
+
+  <section class="projects-section" id="projects">
+    <div class="container">
+      <div class="section-header">
+        <div class="section-eyebrow">Projects</div>
+        <h2 class="section-title">Things I've built</h2>
+      </div>
+
+      <div class="filter-bar">
+        <button class="filter-btn active" data-filter="all">All</button>
+        <button class="filter-btn" data-filter="thesis">Thesis</button>
+        <button class="filter-btn" data-filter="academic">Academic</button>
+        <button class="filter-btn" data-filter="commission">Commission</button>
+        <button class="filter-btn" data-filter="personal">Personal</button>
+      </div>
+
+      <div class="projects-grid">
+
+        <!-- DormFinder -->
+        <div class="project-card featured" data-category="thesis">
+          <div class="card-thumb"
+               data-gallery="assets/img/dormfinder/1.png,assets/img/dormfinder/2.png,assets/img/dormfinder/3.png"
+               role="button" tabindex="0" aria-label="View DormFinder screenshots">
+            <div class="card-thumb-fallback" style="color: var(--teal-text);">
+              <svg width="36" height="36" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><rect x="5" y="2" width="14" height="20" rx="2"></rect><path d="M9 18h6"></path></svg>
+            </div>
+            <img src="assets/img/dormfinder/1.png" alt="DormFinder screenshot" onerror="this.style.display='none'">
+            <span class="card-thumb-hint">⤢ View more</span>
+          </div>
+          <div class="card-body">
+            <div class="card-header">
+              <div class="card-icon icon-teal">
+                <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="5" y="2" width="14" height="20" rx="2"></rect><path d="M9 18h6"></path></svg>
+              </div>
+              <span class="badge badge-thesis">Thesis</span>
+            </div>
+            <div class="card-title">DormFinder</div>
+            <div class="card-platform">Android · Java · Firebase</div>
+            <p class="card-desc">Native Android app for finding dormitories and boarding houses around Batangas and Lipa. Built with Firebase Firestore, real-time messaging with unread indicators, booking and payment flows, offline sync via Room DB, and Cloudinary for image hosting.</p>
+            <div class="card-tags">
+              <span class="tag">Java</span>
+              <span class="tag">Firebase</span>
+              <span class="tag">Google Maps API</span>
+              <span class="tag">Room DB</span>
+              <span class="tag">Cloudinary</span>
+            </div>
+            <div class="card-links">
+              <a href="https://github.com/lacklotus28-bit/DormFinder" target="_blank" class="card-link">View Code →</a>
+            </div>
+          </div>
+        </div>
+
+        <!-- Alumni Information System -->
+        <div class="project-card" data-category="academic">
+          <div class="card-thumb"
+               data-gallery="assets/img/alumni/1.png,assets/img/alumni/2.png,assets/img/alumni/3.png"
+               role="button" tabindex="0" aria-label="View Alumni Information System screenshots">
+            <div class="card-thumb-fallback" style="color: var(--blue-text);">
+              <svg width="36" height="36" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M22 10v6M2 10l10-5 10 5-10 5z"></path><path d="M6 12v5c0 1.5 3 3 6 3s6-1.5 6-3v-5"></path></svg>
+            </div>
+            <img src="assets/img/alumni/1.png" alt="Alumni Information System screenshot" onerror="this.style.display='none'">
+            <span class="card-thumb-hint">⤢ View more</span>
+          </div>
+          <div class="card-body">
+            <div class="card-header">
+              <div class="card-icon icon-blue">
+                <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M22 10v6M2 10l10-5 10 5-10 5z"></path><path d="M6 12v5c0 1.5 3 3 6 3s6-1.5 6-3v-5"></path></svg>
+              </div>
+              <span class="badge badge-academic">Academic</span>
+            </div>
+            <div class="card-title">Alumni Information System</div>
+            <div class="card-platform">PHP · MySQL</div>
+            <p class="card-desc">Web-based system for managing and maintaining alumni records, built as a Software Engineering group project. Covers alumni registration, admin verification, an account management dashboard, and a media gallery.</p>
+            <div class="card-tags">
+              <span class="tag">PHP</span>
+              <span class="tag">MySQL</span>
+              <span class="tag">XAMPP</span>
+            </div>
+            <div class="card-links">
+              <a href="https://github.com/lacklotus28-bit" target="_blank" class="card-link">View Code →</a>
+            </div>
+          </div>
+        </div>
+
+        <!-- Mavics Resort -->
+        <div class="project-card" data-category="commission">
+          <div class="card-thumb"
+               data-gallery="assets/img/mavics/1.png,assets/img/mavics/2.png,assets/img/mavics/3.png"
+               role="button" tabindex="0" aria-label="View Mavics Resort screenshots">
+            <div class="card-thumb-fallback" style="color: var(--amber-text);">
+              <svg width="36" height="36" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M3 9l9-7 9 7v11a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2z"></path><path d="M9 22V12h6v10"></path></svg>
+            </div>
+            <img src="assets/img/mavics/1.png" alt="Mavics Resort screenshot" onerror="this.style.display='none'">
+            <span class="card-thumb-hint">⤢ View more</span>
+          </div>
+          <div class="card-body">
+            <div class="card-header">
+              <div class="card-icon icon-amber">
+                <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M3 9l9-7 9 7v11a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2z"></path><path d="M9 22V12h6v10"></path></svg>
+              </div>
+              <span class="badge badge-commission">Commission</span>
+            </div>
+            <div class="card-title">Mavics Resort</div>
+            <div class="card-platform">PHP · MySQL</div>
+            <p class="card-desc">Full resort booking and reservation platform built for a client. Customer side covers browsing, bookings, billing, and payment methods. Admin side handles booking management, payments, reports, and a CMS for venues, gallery, and site content.</p>
+            <div class="card-tags">
+              <span class="tag">PHP</span>
+              <span class="tag">MySQL</span>
+              <span class="tag">XAMPP</span>
+              <span class="tag">CMS</span>
+            </div>
+            <div class="card-links">
+              <a href="https://github.com/lacklotus28-bit/MavicsResort" target="_blank" class="card-link">View Code →</a>
+            </div>
+          </div>
+        </div>
+
+        <!-- Garaje de Void -->
+        <div class="project-card" data-category="personal">
+          <div class="card-thumb"
+               data-gallery="assets/img/gdv/1.png,assets/img/gdv/2.png,assets/img/gdv/3.png"
+               role="button" tabindex="0" aria-label="View Garaje de Void screenshots">
+            <div class="card-thumb-fallback" style="color: var(--blue-text);">
+              <svg width="36" height="36" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><circle cx="9" cy="21" r="1"></circle><circle cx="20" cy="21" r="1"></circle><path d="M1 1h4l2.68 13.39a2 2 0 0 0 2 1.61h9.72a2 2 0 0 0 2-1.61L23 6H6"></path></svg>
+            </div>
+            <img src="assets/img/gdv/1.png" alt="Garaje de Void screenshot" onerror="this.style.display='none'">
+            <span class="card-thumb-hint">⤢ View more</span>
+          </div>
+          <div class="card-body">
+            <div class="card-header">
+              <div class="card-icon icon-blue">
+                <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="9" cy="21" r="1"></circle><circle cx="20" cy="21" r="1"></circle><path d="M1 1h4l2.68 13.39a2 2 0 0 0 2 1.61h9.72a2 2 0 0 0 2-1.61L23 6H6"></path></svg>
+              </div>
+              <span class="badge badge-personal">Personal</span>
+            </div>
+            <div class="card-title">Garaje de Void</div>
+            <div class="card-platform">React · TypeScript</div>
+            <p class="card-desc">Philippine-focused diecast car marketplace with a Shopee-style checkout flow, GCash/Maya payment methods, and J&T/LBC courier integration. Built with Tailwind CSS, shadcn/ui, and React Router.</p>
+            <div class="card-tags">
+              <span class="tag">React</span>
+              <span class="tag">TypeScript</span>
+              <span class="tag">Tailwind CSS</span>
+              <span class="tag">shadcn/ui</span>
+            </div>
+            <div class="card-links">
+              <a href="https://github.com/HusPhil/garaje_de_void" target="_blank" class="card-link">View Code →</a>
+            </div>
+          </div>
+        </div>
+
+        <!-- Cozy Birthday Game -->
+        <div class="project-card" data-category="personal">
+          <div class="card-thumb"
+               data-gallery="assets/img/cozybirthday/1.png,assets/img/cozybirthday/2.png,assets/img/cozybirthday/3.png"
+               role="button" tabindex="0" aria-label="View Cozy Birthday Game screenshots">
+            <div class="card-thumb-fallback" style="color: var(--pink-text);">
+              <svg width="36" height="36" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><polygon points="6 3 20 12 6 21 6 3"></polygon></svg>
+            </div>
+            <img src="assets/img/cozybirthday/1.png" alt="Cozy Birthday Game screenshot" onerror="this.style.display='none'">
+            <span class="card-thumb-hint">⤢ View more</span>
+          </div>
+          <div class="card-body">
+            <div class="card-header">
+              <div class="card-icon icon-pink">
+                <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polygon points="6 3 20 12 6 21 6 3"></polygon></svg>
+              </div>
+              <span class="badge badge-personal">Personal</span>
+            </div>
+            <div class="card-title">Cozy Birthday Game</div>
+            <div class="card-platform">Godot · GDScript</div>
+            <p class="card-desc">A small, story-driven birthday game built solo in Godot. A personal project exploring narrative pacing, scene design, and game feel outside of coursework or client work.</p>
+            <div class="card-tags">
+              <span class="tag">Godot</span>
+              <span class="tag">GDScript</span>
+            </div>
+            <div class="card-links">
+              <a href="https://github.com/lacklotus28-bit/CozyBirthdayGame" target="_blank" class="card-link">View Code →</a>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <section class="skills-section" id="skills">
+    <div class="container">
+      <div class="section-header">
+        <div class="section-eyebrow">Skills</div>
+        <h2 class="section-title">Tools & Technologies</h2>
+      </div>
+      <div class="skills-grid">
+        <div class="skill-group">
+          <div class="skill-group-title">Mobile</div>
+          <div class="skill-list">
+            <span class="skill-chip">Android (Java)</span>
+            <span class="skill-chip">Firebase</span>
+            <span class="skill-chip">Room DB</span>
+          </div>
+        </div>
+        <div class="skill-group">
+          <div class="skill-group-title">Web</div>
+          <div class="skill-list">
+            <span class="skill-chip">HTML</span>
+            <span class="skill-chip">CSS</span>
+            <span class="skill-chip">JavaScript</span>
+            <span class="skill-chip">PHP</span>
+            <span class="skill-chip">React</span>
+            <span class="skill-chip">TypeScript</span>
+          </div>
+        </div>
+        <div class="skill-group">
+          <div class="skill-group-title">Database</div>
+          <div class="skill-list">
+            <span class="skill-chip">MySQL</span>
+            <span class="skill-chip">Firebase Firestore</span>
+          </div>
+        </div>
+        <div class="skill-group">
+          <div class="skill-group-title">Tools & Platforms</div>
+          <div class="skill-list">
+            <span class="skill-chip">XAMPP</span>
+            <span class="skill-chip">Godot</span>
+            <span class="skill-chip">WordPress</span>
+            <span class="skill-chip">Google Maps API</span>
+            <span class="skill-chip">Git</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="contact-section" id="contact">
+    <div class="container">
+      <div class="contact-inner">
+        <h2 class="contact-heading">Let's work together</h2>
+        <p class="contact-sub">Whether it's a full-time role, freelance project, or just a question — feel free to reach out.</p>
+        <div class="contact-links">
+          <a href="https://mail.google.com/mail/?view=cm&to=johnencarnacion487@gmail.com" target="_blank" class="btn btn-primary">Email me</a>
+          <a href="https://github.com/lacklotus28-bit" target="_blank" class="btn btn-outline">GitHub</a>
+          <a href="https://www.linkedin.com/in/jhon-maelbert-encarnacion-44480b249/" target="_blank" class="btn btn-outline">LinkedIn</a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <footer class="footer">
+    <div class="container">
+      <p>Jhon Maelbert Encarnacion · <span id="year"></span></p>
+    </div>
+  </footer>
+
+  <!-- LIGHTBOX -->
+  <div class="lightbox" id="lightbox" role="dialog" aria-modal="true" aria-label="Image lightbox">
+    <button class="lightbox-close" id="lb-close" aria-label="Close lightbox">×</button>
+    <button class="lightbox-prev" id="lb-prev" aria-label="Previous image">&#8249;</button>
+    <img class="lightbox-img" id="lb-img" src="" alt="Project screenshot">
+    <button class="lightbox-next" id="lb-next" aria-label="Next image">&#8250;</button>
+    <div class="lightbox-counter" id="lb-counter"></div>
+  </div>
+
+  <script src="assets/js/main.js"></script>
+</body>
+</html>
