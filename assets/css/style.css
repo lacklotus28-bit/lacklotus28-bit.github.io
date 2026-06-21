@@ -447,7 +447,7 @@ ul { list-style: none; }
 
 .badge-wip {
    background: var(--amber-bg);
-   colos: var(--amber-text);
+   color: var(--amber-text);
    border: 1px solid var(--amber-text);
 }
 
